@@ -1,0 +1,12 @@
+<h1 class="centered-text">Available Posts ^_^</h1>
+
+<ul>
+  <% @posts.each do |post| %>
+    <li>
+        <strong>Maha Magdy</strong>
+        <p><%= post.post %></p>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Create new post", new_post_path%>
