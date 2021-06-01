@@ -1,6 +1,7 @@
 # RE-FORMER _ Bare Metal Forms and Helpers project 
 
-Members only is Rails ap. This application is made for creating a simple app that allows us to practice using forms of ruby on rails helper methods like form_with and form_tag. The reference for this project was made by [THE ODIN PROJECT](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/authentication).
+Members-only is the Rails app. This application has been made for creating a simple app that allows us to practice using device gem, which helps in authenticate users and authorizes some views depends if they are logged in or not.
+The reference for this project was made by [THE ODIN PROJECT](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/authentication).
 
 ## Built With
 
@@ -27,7 +28,7 @@ Members only is Rails ap. This application is made for creating a simple app tha
 
    Rails server
 
-5. start to create new user from your server url/new, and edit after that from server url/id/edit
+5. Start to create a new user from your server by clicking the Sign-Up button, and start to create posts, then if you Log Out by clicking the Log Out button, you will begin to see those posts without the author name because you are not authorized to view them anymore.
 
 ## Authors
 
