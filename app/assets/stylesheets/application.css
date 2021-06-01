@@ -14,12 +14,21 @@
  *= require_self
  */
 
+ body {
+    text-align: center;
+ }
+
  .notice {
      background-color: green;
      color: white;
  }
 
  .alert {
-     background-color: red;
+     background-color: orange;
      color: white;
+ }
+
+ ul {
+    list-style: none;
+    padding: unset;
  }

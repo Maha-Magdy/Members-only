@@ -3,7 +3,9 @@
 <ul>
   <% @posts.each do |post| %>
     <li>
-        <strong>Maha Magdy</strong>
+    <% if user_signed_in? %>
+        <strong><%= post.user.name%></strong>
+    <% end %>
         <p><%= post.post %></p>
     </li>
   <% end %>

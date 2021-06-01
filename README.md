@@ -13,7 +13,7 @@ Members only is Rails ap. This application is made for creating a simple app tha
 
 1. To clone this repo run this code on a terminal window: 
 
-   git clone git@github.com:John-Arboleda/re-former.git
+   git clone https://github.com/Maha-Magdy/Members-only.git
 
 2. install gems by this command
 
