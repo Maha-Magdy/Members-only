@@ -1,4 +1,4 @@
-# RE-FORMER _ Bare Metal Forms and Helpers project 
+# MEMBERS ONLY
 
 Members-only is the Rails app. This application has been made for creating a simple app that allows us to practice using device gem, which helps in authenticate users and authorizes some views depends if they are logged in or not.
 The reference for this project was made by [THE ODIN PROJECT](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/authentication).
