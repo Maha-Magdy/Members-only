@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
 
  body {
     text-align: center;
@@ -32,3 +33,5 @@
     list-style: none;
     padding: unset;
  }
+=======
+>>>>>>> development
