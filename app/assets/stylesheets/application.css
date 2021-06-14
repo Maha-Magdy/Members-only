@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
+
+ body {
+    text-align: center;
+ }
+
+ .notice {
+     background-color: green;
+     color: white;
+ }
+
+ .alert {
+     background-color: orange;
+     color: white;
+ }
+
+ ul {
+    list-style: none;
+    padding: unset;
+ }
+=======
+>>>>>>> development

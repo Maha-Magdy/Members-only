@@ -1,0 +1,19 @@
+<%= form_with model: @post do |form| %>
+<div class="centered-text">
+    <% if @post.errors.any? %>
+    <div id="error_explanation">
+        <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being created:</h2>
+
+        <ul>
+        <% @post.errors.each do |error| %>
+            <li><%= error.full_message %></li>
+         <% end %>
+        </ul>
+    </div>
+    <% end %>
+
+    <%= form.label(:post, "Post whatever you think of:", class: "display-block") %>
+    <%= form.text_area(:post, class: "margin-25") %>
+    <%= form.submit(class: "display-block margin-auto") %>
+</div>
+<% end %>
